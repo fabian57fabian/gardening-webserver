@@ -1,0 +1,44 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Gardening</title>
+    <meta name="keywords" content="remote, arduino, project, diy"/>
+    <meta name="description" content="Remote control on IR over wifi"/>
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <script>
+        if (screen && screen.width <= 480) {
+            document.write('<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />');
+        }
+    </script>
+
+    <script type="text/javascript" src="scripts/jquery-3.3.1.js"></script>
+    <script type="text/javascript" src="scripts/jquery.gardening.plugin.js"></script>
+    <script type="text/javascript" src="scripts/gardening_plugin_init.js"></script>
+    <link rel="icon" href="images/pianta_in_vaso.png">
+
+</head>
+<body class="mainpage">
+<div class="message_box">
+    <div class="result_box">
+        <p>Welcome</p>
+    </div>
+</div>
+<div class="gardening_plugin">
+    <div class="label_dropDown">
+        Time
+    </div>
+    <div class="list">
+        <form class="dropDownwaterTimes">
+            <select name="times" id="water_times" class="listbox">
+            </select>
+        </form>
+    </div>
+</div>
+<div style="text-align: center">
+    <button type="submit" id="send_water" class="button_water">
+
+    </button>
+</div>
+</body>
+</html>
