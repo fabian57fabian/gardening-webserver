@@ -2,7 +2,7 @@
 This is a project to mantain a User Interface for gardening controlling purposes.
 Since the last update we can control the watering pomp sending messages to a webserver on a NodeMCU v3 controller.
 
-#Installation
+## Installation
 
 To install gardening-webserver you have to install mysql (or phpmyadmin, mariadb, postgresql...). 
 Once you've done that add an user with a specified password (the default one i am using is client1 with password client1password). 
