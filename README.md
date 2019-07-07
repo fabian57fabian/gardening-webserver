@@ -1,4 +1,11 @@
+
+
 # gardening-webserver-apache
+
+<p align="center"> 
+<img src="https://github.com/fabian57fabian/gardening-webserver/blob/master/images/pianta_in_vaso.png">
+</p>
+
 This is a project to mantain a User Interface for gardening controlling purposes.
 Since the last update we can control the watering pomp sending messages to a webserver on a NodeMCU v3 controller.
 
