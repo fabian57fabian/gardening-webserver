@@ -44,7 +44,7 @@ void setup(void) {
   WiFi.begin(ssid_hotspot, password_hotspot); //begin WiFi connection
   print_this("");
 
-  Serial.println("Try with Ospiti-TIM");
+  Serial.println("Try with selected ssid ");
   while (WiFi.status() != WL_CONNECTED) {
     delay(500);
     print_this(".");
@@ -63,7 +63,7 @@ void loop(void) {
 void send_errorAnswer(String error) {
   print_this(error);
   server.sendHeader("Access-Control-Allow-Origin", "*");
-  server.send(400, "application/json", "{result: \"ERROR\", \"status\": \"" + error + "\"}");
+  server.send(400, "application/json", "{\"result\": \"ERROR\", \"status\": \"" + error + "\"}");
   return;
 }
 
